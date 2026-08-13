@@ -81,3 +81,4 @@ Các dự án liên quan
 Các trang web hữu ích
 - [Bộ định tuyến giao lưu (Tiếng Trung)](https://www.acwifi.net)
 - [Diễn đàn Không dây Ân Sơn (Tiếng Trung)](https://www.right.com.cn)
+- [How ARM Systems are Booted: An Introduction to the ARM Boot Flow - Rouven Czerwinski](https://youtu.be/GXFw8SV-51g?si=jdVqblgRJGEHMvyH)
