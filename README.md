@@ -1,5 +1,3 @@
-# vozer-mod-wifi
-
 Trang này để tổng hợp thông tin, công cụ cho việc nghiên cứu wifi / router - chủ yếu là về OpenWRT và các biến thể liên quan.
 
 ## 1. Công cụ phần cứng & Gỡ lỗi (Hardware Tools)
