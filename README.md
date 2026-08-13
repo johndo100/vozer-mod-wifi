@@ -77,3 +77,7 @@ Dùng để đo điện (kiểm tra mức 3.3V/5V), kiểm tra thông mạch (ch
 
 Các dự án liên quan
 - [ImmortalWrt build cho 32X6 và NR3053](https://github.com/quytttb/immortalwrt-mt798x-rebase)
+
+Các trang web hữu ích
+- [Bộ định tuyến giao lưu (Tiếng Trung)](https://www.acwifi.net)
+- [Diễn đàn Không dây Ân Sơn (Tiếng Trung)](https://www.right.com.cn)
