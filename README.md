@@ -12,7 +12,7 @@ Bộ dụng cụ nhựa chuyên dụng dùng để nạy vỏ router không bị
 
 ### 1.2. Hàn thiếc
 
-[HÀN THIẾC - HÀN CHÌ QUÁ ĐƠN GIẢN | HƯỚNG DẪN CHI TIẾT | KINH NGHIỆM BẢN THÂN DÀNH TẶNG ANH EM](https://youtu.be/mZpYkeVuVdE?si=7DA_IadlZeiBlPyd)
+Video hướng dẫn: [HÀN THIẾC - HÀN CHÌ QUÁ ĐƠN GIẢN | HƯỚNG DẪN CHI TIẾT | KINH NGHIỆM BẢN THÂN DÀNH TẶNG ANH EM](https://youtu.be/mZpYkeVuVdE?si=7DA_IadlZeiBlPyd)
 
 #### 1.2.1. [Desoldering - Hút thiếc](https://en.wikipedia.org/wiki/Desoldering)
 
@@ -35,6 +35,16 @@ Hợp kim hàn thường là dạng cuộn dây dùng để liên kết kim lo�
 Chất trợ hàn giúp làm sạch bề mặt kim loại, tăng độ bám dính của chì hàn, giúp mối hàn sáng bóng và hạn chế chập mạch khi hàn các chân linh kiện nhỏ.
 
 ### 1.3. UART Console
+
+Sơ đồ kết nối UART (Pinout Connection)
+
+- **TX (Transmitter) $\rightarrow$ RX (Receiver)**
+- **RX (Receiver) $\rightarrow$ TX (Transmitter)**
+- **GND (Ground) $\rightarrow$ GND (Ground)**
+
+> **Lưu ý quan trọng:** Chân truyền dữ liệu (TX) của thiết bị này phải nối vào chân nhận dữ liệu (RX) của thiết bị kia và ngược lại. **Tuyệt đối không nối chân VCC/5V** từ cáp USB-to-serial vào bo mạch router trừ khi bạn cấp nguồn riêng hoặc thiết kế nguồn đặc biệt, để tránh xung đột điện áp làm cháy phần cứng.
+
+![UART Connection Guide](https://remotexy.com/img/help/help-esp8266-firmware-update-usbuart.png)
 
 #### 1.3.1. [USB-to-serial adapter - Cáp chuyển đổi USB sang UART / TTL](https://en.wikipedia.org/wiki/USB-to-serial_adapter)
 
@@ -64,3 +74,6 @@ Dùng để đo điện (kiểm tra mức 3.3V/5V), kiểm tra thông mạch (ch
 > *Lưu ý: Phần hình ảnh thực tế và danh mục chi tiết các trang thiết bị đang sử dụng được cập nhật sau để anh em tham khảo (repo mang tính chất chia sẻ kỹ thuật, không có link mua bán thương mại).*
 
 ## 2. Phần mềm & Công cụ lập trình (Software & Code)
+
+Các dự án liên quan
+- [ImmortalWrt build cho 32X6 và NR3053](https://github.com/quytttb/immortalwrt-mt798x-rebase)
