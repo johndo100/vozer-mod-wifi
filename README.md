@@ -12,7 +12,7 @@ Bộ dụng cụ dùng để nạy vỏ router không bị toác ngàm, trầy x
 
 ### 1.2. Hàn thiếc
 
-Video hướng dẫn: [HÀN THIẾC - HÀN CHÌ QUÁ ĐƠN GIẢN | HƯỚNG DẪN CHI TIẾT | KINH NGHIỆM BẢN THÂN DÀNH TẶNG ANH EM](https://youtu.be/mZpYkeVuVdE?si=7DA_IadlZeiBlPyd)
+Video hướng dẫn (tìm thấy trên mạng): [HÀN THIẾC - HÀN CHÌ QUÁ ĐƠN GIẢN | HƯỚNG DẪN CHI TIẾT | KINH NGHIỆM BẢN THÂN DÀNH TẶNG ANH EM](https://youtu.be/mZpYkeVuVdE?si=7DA_IadlZeiBlPyd).
 
 #### 1.2.1. [Desoldering - Hút thiếc](https://en.wikipedia.org/wiki/Desoldering)
 
