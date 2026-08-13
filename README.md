@@ -8,7 +8,7 @@ Trang này để tổng hợp thông tin, công cụ cho việc nghiên cứu wi
 
 ![Opening pick / Pry tool / Spudger](./IMG/pry_tool.png)
 
-Bộ dụng cụ nhựa chuyên dụng dùng để nạy vỏ router không bị toác ngàm, trầy xước hay gãy chốt nhựa.
+Bộ dụng cụ dùng để nạy vỏ router không bị toác ngàm, trầy xước hay gãy chốt nhựa.
 
 ### 1.2. Hàn thiếc
 
@@ -20,7 +20,7 @@ Video hướng dẫn: [HÀN THIẾC - HÀN CHÌ QUÁ ĐƠN GIẢN | HƯỚNG D�
 - **Ứng dụng:**
     - **Hút chân linh kiện:** Cực kỳ cần thiết khi cần tháo rời các linh kiện xuyên lỗ (thru-hole components) trên mainboard router như giắc cắm nguồn, cổng mạng RJ45, tụ điện, hoặc đặc biệt là việc nhấc chip Flash / EEPROM ra ngoài để nạp lại trực tiếp bằng mạch nạp khi router bị brick nặng mà cổng UART không còn cứu được.
     - **Sửa chữa phần cứng (Hardware Mod):** Dùng khi muốn thay thế linh kiện nâng cấp (như độ chip Flash dung lượng lớn hơn, thay RAM, hoặc hàn thêm các chân pin header UART/JTAG mà nhà sản xuất đã lược bỏ trên bo mạch).
-- **Lưu ý:** Nên kết hợp sử dụng cùng mỏ hàn có điều chỉnh nhiệt độ chuẩn để tránh làm bong tróc các vi mạch, đứt mạch in (PCB traces) trên bo mạch vốn rất mỏng của router.
+- **Lưu ý:** Nên kết hợp sử dụng cùng mỏ hàn có điều chỉnh nhiệt độ chuẩn để tránh làm bong tróc các vi mạch, đứt mạch in (PCB traces) trên bo mạch vốn rất mỏng của router. Mua thêm đầu silicone chịu nhiệt sẽ dễ hút hơn.
 
 #### 1.2.2. [Soldering iron - Mỏ hàn](https://en.wikipedia.org/wiki/Soldering_iron)
 
@@ -42,7 +42,7 @@ Sơ đồ kết nối UART (Pinout Connection)
 - **RX (Receiver) $\rightarrow$ TX (Transmitter)**
 - **GND (Ground) $\rightarrow$ GND (Ground)**
 
-> **Lưu ý quan trọng:** Chân truyền dữ liệu (TX) của thiết bị này phải nối vào chân nhận dữ liệu (RX) của thiết bị kia và ngược lại. **Tuyệt đối không nối chân VCC/5V** từ cáp USB-to-serial vào bo mạch router trừ khi bạn cấp nguồn riêng hoặc thiết kế nguồn đặc biệt, để tránh xung đột điện áp làm cháy phần cứng.
+> **Lưu ý quan trọng:** Chân truyền dữ liệu (TX) của thiết bị này phải nối vào chân nhận dữ liệu (RX) của thiết bị kia và ngược lại. **Tuyệt đối không nối chân VCC/5V** từ cáp USB-to-serial vào bo mạch router để tránh xung đột điện áp làm cháy phần cứng.
 
 ![UART Connection Guide](https://remotexy.com/img/help/help-esp8266-firmware-update-usbuart.png)
 
@@ -53,7 +53,7 @@ Sơ đồ kết nối UART (Pinout Connection)
     - Đọc boot log toàn bộ quá trình khởi động của router để phát hiện lỗi kernel panic hoặc xung đột phần cứng.
     - Truy cập vào bộ nạp khởi động (U-Boot / Breed / RedBoot) để can thiệp sâu trước khi hệ điều hành chính được load.
     - **Cứu hộ (Unbrick):** Cứu router khi bị treo boot, hỏng phân vùng U-Boot/firmware, cho phép nạp lại file firmware gốc qua giao thức TFTP trực tiếp từ tầng bootloader.
-- **Lưu ý:** Luôn kiểm tra mức điện áp logic của board mạch router (phổ biến nhất là 3.3V). Tuyệt đối không cắm nhầm nguồn 5V hoặc đấu nhầm chân TX/RX để tránh làm cháy chip giao tiếp serial trên router.
+- **Lưu ý:** Luôn kiểm tra mức điện áp logic của board mạch router (phổ biến nhất là 3.3V). Tuyệt đối không cắm nhầm nguồn 5V để tránh làm cháy chip giao tiếp serial trên router.
 
 #### 1.3.2. [Pin header](https://en.wikipedia.org/wiki/Pin_header)
 
