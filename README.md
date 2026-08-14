@@ -69,6 +69,8 @@ Mua loại đầu cắm cái - cái (female - female) để nối từ cáp chuy
 
 Dùng để đo điện (kiểm tra mức 3.3V/5V), kiểm tra thông mạch (chân GND, TX, RX) và dò đường mạch trên bo mạch router một cách an toàn.
 
+Video hướng dẫn (lụm trên mạng): [Hướng dẫn sử dụng Đồng hồ đo điện vạn năng ANENG DT9205A](https://youtu.be/CB15Mgnu2tM?si=hT4oBQDjgiVboS5F).
+
 > *Lưu ý: Phần hình ảnh thực tế và danh mục chi tiết các trang thiết bị đang sử dụng cập nhật để anh em tham khảo (repo mang tính chất chia sẻ kỹ thuật, không có link mua bán thương mại).*
 
 ## 2. Phần mềm & Công cụ lập trình (Software & Code)
