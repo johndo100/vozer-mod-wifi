@@ -61,7 +61,7 @@ Mua hàng rào đực đơn hàn vào lỗ cắm UART để nối với dây c�
 
 #### 1.3.3. [Jump wire - Dây cắm test (Dupont wire)](https://en.wikipedia.org/wiki/Jump_wire)
 
-![Dupont wire female](./IMG/dupont_wire_female.png)
+![Dupont wire female](./IMG/dupont_wire_female_to_female.png)
 
 Mua loại đầu cắm cái - cái (female - female) để nối từ cáp chuyển đổi USB-to-serial sang các chân pin header đã hàn trên bo mạch.
 
