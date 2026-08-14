@@ -42,7 +42,7 @@ Sơ đồ kết nối UART (Pinout Connection)
 
 > **Lưu ý quan trọng:** Chân truyền dữ liệu (TX) của thiết bị này phải nối vào chân nhận dữ liệu (RX) của thiết bị kia và ngược lại. **Tuyệt đối không nối chân VCC/5V** từ cáp USB-to-serial vào bo mạch router để tránh xung đột điện áp làm cháy phần cứng.
 
-![UART Connection Guide](https://remotexy.com/img/help/help-esp8266-firmware-update-usbuart.png)
+![UART Connection Guide](./IMG/usb_uart_to_board_hookup.png)
 
 #### 1.3.1. [USB-to-serial adapter - Cáp chuyển đổi USB sang UART / TTL](https://en.wikipedia.org/wiki/USB-to-serial_adapter)
 
